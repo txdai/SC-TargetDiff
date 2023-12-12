@@ -1,0 +1,9 @@
+model:
+  checkpoint: /home/txdai/research-2023/TargetDiff/logs_diffusion/training_2023_12_04__01_20_02/checkpoints/66600.pt
+sample:
+  seed: 2021
+  num_samples: 100
+  num_steps: 1000
+  pos_only: False
+  center_pos_mode: protein
+  sample_num_atoms: prior
